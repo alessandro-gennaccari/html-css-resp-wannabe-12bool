@@ -1,23 +1,45 @@
 .container {
-    max-width: 992px;
+    max-width: 993px;
     margin: 50px auto 0;
     text-align: center;
 }
 
-.row img {
-    height: 200px;
+h2 {
+    font-size: 30px;;
 }
 
-/* #lessons */
+.row img {
+    height: 180px;
+}
+
+.row img:hover {
+    cursor: pointer;
+}
+
+#lessons:hover,
+#steps:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 6px -2px #a0c4d6;
+}
 
 #steps,
 #why {
-    background-color: #f9f9f9;
+    background-color: #f1f1f1;
+}
+
+#steps .row img:hover {
+    cursor: pointer;
+    transition: transform 1s;
+    transform: rotate(360deg);
 }
 
 #why .row img {
     background-color: #428bca;
     border-radius: 50%;
+}
+
+#why .row img:hover {
+    background-color: #276daa;
 }
 
 /* DEBUG */
