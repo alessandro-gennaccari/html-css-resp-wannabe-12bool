@@ -10,8 +10,14 @@
 
 /* #lessons */
 
-#steps {
+#steps,
+#why {
     background-color: #f9f9f9;
+}
+
+#why .row img {
+    background-color: #428bca;
+    border-radius: 50%;
 }
 
 /* DEBUG */
@@ -25,5 +31,4 @@
     border: 1px solid black;
     height: 100%;
 }
-
 /* / DEBUG */
